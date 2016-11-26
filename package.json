@@ -1,0 +1,26 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "Website to serve as landing page for projects and blog posts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickdaniele/personalWebsite.git"
+  },
+  "author": "Nick Daniele",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickdaniele/personalWebsite/issues"
+  },
+  "homepage": "https://github.com/nickdaniele/personalWebsite#readme",
+  "dependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "react": "^15.4.1",
+    "react-router": "^3.0.0",
+    "webpack": "^1.13.3"
+  }
+}
