@@ -4,7 +4,7 @@
   "description": "Website to serve as landing page for projects and blog posts",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server",
+    "start": "webpack-dev-server --inline --hot",
     "watch": "webpack --watch"
   },
   "repository": {
