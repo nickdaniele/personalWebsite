@@ -1,1 +1,2 @@
-document.write('Everything is ok');
+var React = require('react');
+var ReactDOM = require('react-dom');
