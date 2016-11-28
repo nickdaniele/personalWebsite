@@ -5,7 +5,7 @@ const config = {
 	context: __dirname,
   entry: './client/app.jsx',
   output: {
-    filename: 'webpack.bundle.js',
+    filename: 'bundle.js',
     path: path.join(__dirname, '/dist')
   },
   resolve: {
