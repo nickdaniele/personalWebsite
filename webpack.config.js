@@ -3,7 +3,7 @@ const webpack = require('webpack');
 
 const config = {
 	context: __dirname,
-  entry: './client/app.js',
+  entry: './client/app.jsx',
   output: {
     filename: 'webpack.bundle.js',
     path: path.join(__dirname, '/dist')
