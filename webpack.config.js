@@ -28,6 +28,10 @@ const config = {
       {
       	test: /\.(js|jsx)$/, 
       	loader: 'babel-loader'
+      },
+      {
+        test: /\.css$/, 
+        loader: 'style-loader!css-loader'
       }
     ]
   }
