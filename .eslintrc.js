@@ -10,6 +10,6 @@ module.exports = {
     	"document": true
     },
     // Should exceptions for .css and bootstrap files as opposed to 
-    // turning whole thing off.
-    "rules": { "no-unused-vars": 0}
+    // turning whole thing off. Also need to figure out self-closing.
+    "rules": { "no-unused-vars": 0, 'react/self-closing-comp': 0 }
 };
