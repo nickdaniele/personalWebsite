@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Grid, Row, Col } from 'react-bootstrap';
 
 import Introduction from './components/introduction/introduction';
 import Projects from './components/projects/projects';
@@ -12,9 +13,6 @@ import MainCSS from './main.css';
 const App = () => (
   <div>
     <Introduction />
-    <Projects />
-    <Bookshelf />
-    <Contact />
   </div>
 );
 
