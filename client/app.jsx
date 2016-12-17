@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Grid, Row, Col } from 'react-bootstrap';
 
 import Introduction from './components/introduction/introduction';
 import Projects from './components/projects/projects';

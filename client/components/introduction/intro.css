@@ -1,1 +1,13 @@
+#header {
+  text-align: center;
+}
 
+#name {
+  display: inline-block;
+  text-align: center;
+}
+
+#menu {
+  display: inline-block;
+  float: right;
+}
