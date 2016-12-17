@@ -12,6 +12,7 @@ import MainCSS from './main.css';
 const App = () => (
   <div>
     <Introduction />
+    <Projects />
   </div>
 );
 
