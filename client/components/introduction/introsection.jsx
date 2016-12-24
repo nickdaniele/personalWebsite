@@ -1,8 +1,8 @@
 import React from 'react';
 import { Grid, Row, Col, Button, Glyphicon } from 'react-bootstrap';
-import IntroductionCSS from './intro.css';
+import IntroCSS from './intro.css';
 
-const Introduction = () => (
+const IntroSection = () => (
   <div className="odd">
     <div className="header">
       <h1 className="title">{'Nick Daniele'}</h1>
@@ -21,4 +21,4 @@ const Introduction = () => (
   </div>
 );
 
-module.exports = Introduction;
+module.exports = IntroSection;
