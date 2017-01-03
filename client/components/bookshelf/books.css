@@ -1,4 +1,20 @@
-.book img {
+.bookColumn {
+  display: inline-block;
+  float: none;
+}
+
+.bookWrapper {
+  display: table;
+  margin: auto;
+}
+
+.bookWrapper img {
   border: solid 5px #687178;
   border-radius: 5px;
+}
+
+.bookWrapper p {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
 }

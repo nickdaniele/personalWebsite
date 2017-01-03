@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, bsClass } from 'react-bootstrap';
 
 import SiteData from '../../../data/siteData';
 
@@ -17,9 +17,9 @@ class Books extends React.Component {
     this.state.books.forEach((book, index) => {
       books.push(
         <div className="book" key={index}>
-          <Col md={4}>
-            <img src={book.image} className="img-responsive center-Block" alt="Responsive" />
-            <div className="bookInfo text-center">
+          <Col md={4} sm={12} xs={12}>
+            <div className="bookWrapper">
+              <img src={book.image} className="img-responsive center-block" alt="Responsive" />
               <p>{book.synopsis}</p>
             </div>
           </Col>
@@ -30,7 +30,7 @@ class Books extends React.Component {
     return (
       <div>
         <Grid>
-          <Row>
+          <Row className="text-center">
             {books}
           </Row>
         </Grid>
